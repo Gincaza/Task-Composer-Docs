@@ -18,12 +18,12 @@ const config = {
   url: 'https://github.com', // URL do GitHub Pages
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Tasks-Composer-ADC/', // Caminho base do repositório
+  baseUrl: '/Tasks-Composer-DOCS/', // Caminho base do repositório
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Gincaza', // Nome do usuário ou organização no GitHub
-  projectName: 'Tasks-Composer-ADC', // Nome do repositório no GitHub
+  projectName: 'Tasks-Composer-DOCS', // Nome do repositório no GitHub
   deploymentBranch: 'gh-pages', // <<< Adicionado aqui
 
   onBrokenLinks: 'throw',
@@ -42,7 +42,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/', // Define a página inicial como a documentação
-          editUrl: 'https://github.com/Gincaza/Tasks-Composer-ADC/edit/main/docs/',
+          editUrl: 'https://github.com/Gincaza/Tasks-Composer-DOCS/edit/main/docs/',
         },
         blog: false,
         theme: {
